@@ -11,7 +11,6 @@
 This is the backend part of the project written in Node.js.
 
 ## Build and deploy the project backend 
-After building all the necessary dependencies, clone KIT from git and built it with ant.
 
 ```
 # Clone the master branch from git
