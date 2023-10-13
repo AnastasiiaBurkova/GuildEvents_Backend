@@ -6,7 +6,7 @@ name: Build and deploy Node.js app to Azure Web App - whatsthehaps-api
 on:
   push:
     branches:
-      - nope
+      - master
   workflow_dispatch:
 
 jobs:
@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'whatsthehaps-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_846F565F30E349C4B82F7830C6E80BE8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_980BD00E0FB54487942AC94C705FB477 }}
           package: .
